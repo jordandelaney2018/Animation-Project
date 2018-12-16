@@ -1,0 +1,33 @@
+@import url('https://fonts.googleapis.com/css?family=Allerta+Stencil');
+
+body{
+    font-family: 'Allerta Stencil', sans-serif;
+}
+#crossHair {
+    position: absolute;
+    display: block;
+    z-index: 99;
+    left: 65%;
+    top: 70%;
+    height: 50px;
+    width: 50px;
+}
+
+#ammo{
+    background-image: url("Media/ammo backdrop.png");
+    position: absolute;
+    display: block;
+    z-index: 99;
+    left: 5%;
+    top: 90%;
+    height: 200px;
+    width: 400px;
+    text-align: center;
+}
+
+#count{
+    margin-top: 75px;
+    color: #b2a7b7;
+    font-size: 250%;
+    opacity: 0.8 ;
+}
